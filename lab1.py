@@ -1,0 +1,12 @@
+print("Здравствуйте, вы проходите анкету")
+name = input("Введите ваше имя: ")
+surname = input("Введите вашу фамилию: ")
+date_of_birth = input("Введите ваш год рождения: ")
+first_question = input("Нравится ли вам курс ?")
+second_question = input("Что вы ожидаете в дальнейших занятиях ?")
+
+print("Вы заполнили следующие данные:")
+print("Вас зовут: " + name)
+print("Вам", (2023-int(date_of_birth)), "лет")
+print("Ваш ответ к первому вопросу: " + first_question)
+print("Ваш ответ к второму вопросу: " + second_question)
